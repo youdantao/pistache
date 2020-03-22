@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++ Launch (GDBSERVER)",
+      "type": "cppdbg",
+      "request": "launch",
+      "miDebuggerServerAddress": "localhost:8888",
+      "miDebuggerPath": "/usr/local/bin/gdb",
+      "targetArchitecture": "x64",
+      "program": "${workspaceRoot}/build/examples/run_http_server",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceRoot}",
+      "sourceFileMap": {
+        "/source": "${workspaceRoot}"
+      },
+      "environment": []
+    }
+  ]
+}

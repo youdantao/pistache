@@ -32,5 +32,4 @@ build
 
 # Ignoring IDE files
 
-.vscode
 .idea
