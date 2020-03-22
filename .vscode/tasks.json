@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "docker run -p 8888:8888 -p 9080:9080 --rm -v ${workspaceRoot}:/source cppdev /bin/bash ../build.sh"
+        },
+    ]
+}

@@ -11,4 +11,6 @@ RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 999 \
  && update-alternatives --install /usr/bin/cc  cc  /usr/bin/gcc-8 999 \
  && update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++-8 999
 
+WORKDIR /source/build
+
 EXPOSE 8888 9080
